@@ -1,0 +1,19 @@
+html, body {
+    height:100%;
+} 
+
+body {
+   background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-blood-donation-love-dedication-public-welfare-poster-background-template-image_145977.jpg");
+
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: left top; 
+    height: 100%;
+
+
+
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}

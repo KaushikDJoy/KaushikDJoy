@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Meta used for encoding character-->
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="BloodBank_stylesheet.css">  <!-- External css Stylesheet link  -->
+
+
+<!--      Main Code Content         -->
+
+<title>BloodBank Home</title>
+
+<!--Internal Page Styling Code -->
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: indianred;
+}
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+
+  background-color: darkred;
+  padding:3%;
+  text-align: center;
+  color: white;
+
+}	
+
+
+.stylenav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.stylenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.stylenav a.active {
+  background-color: darkred;
+  color: white;
+}
+
+.info_style {
+  background-color: orangered;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+<br>
+<div class="stylenav">
+  <a class="active" href="#home">Home</a>
+  <a href="http://localhost/show.php">Looking For Blood</a>
+  <a href="http://localhost/bloodbankform.php">Donate Blood</a>
+  <a href="bloodbank_aboutus.html">About Us</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="https://stanfordbloodcenter.org/wp-content/uploads/2020/06/Blood-facts_10-illustration-graphics__canteen.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-69024200/69024200.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://appscms.boffincoders.com/uploads/I_Save_Life_Blog_Banner_26_2482ddf461.jpg" alt="Mountains" style="width:100%">
+  </div>
+
+</div>
+<br>
+<br>
+<section>
+	<table>
+  <tr>
+    <th><em>Blood Type</em></th>
+    <th><em>Donate Blood to</em></th>
+    <th><em>Receive Blood From</em></th>
+  </tr>
+  <tr>
+    <td>A+</td>
+    <td>A+ AB+</td>
+    <td>A+ A- O+ O-</td>
+
+  </tr>
+  <tr>
+    <td>O+</td>
+    <td>O+ A+ B+ AB+</td>
+    <td>O+ O-</td>
+  </tr>
+  <tr>
+    <td>B+</td>
+    <td>B+ AB+</td>
+    <td>B+ B- O+ O-</td>
+  </tr>
+  <tr>
+    <td>AB+</td>
+    <td>AB+</td>
+    <td>EVEYONE</td>
+  </tr>
+  <tr>
+    <td>A-</td>
+    <td>A+ A- AB+ AB-</td>
+    <td>A- O-</td>
+  </tr>
+  <tr>
+    <td>O-</td>
+    <td>EVERYONE</td>
+    <td>O-</td>
+  </tr>
+    <tr>
+    <td>B-</td>
+    <td>B+ B- AB+ AB-</td>
+    <td>B- O-</td>
+  </tr>
+    <tr>
+    <td>AB-</td>
+    <td>AB+ AB-</td>
+    <td>AB- A- B- O-</td>
+  </tr>
+</table>
+</section>
+
+<br>
+
+<footer>
+  <address>Email:<a href="afzanoor31@gmail.com">Blood Donation</a></address>
+</footer>
+
+</body>
+</html>
