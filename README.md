@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @KaushikDJoy
-- 👀 I’m interested in Web Development
--  🌱 I’m currently learning PHP 
-- 💞️ I’m looking to collaborate on Web designing projects
+- 👀 I’m a Data Analyst 
+- 💞️ I’m looking to collaborate on Data and Business Intelligence
 - 📫 To reach me Contact: kaushikdeyjoy@gmail.com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
